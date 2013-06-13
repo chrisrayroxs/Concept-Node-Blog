@@ -21,6 +21,8 @@ app.set( 'views', __dirname + '/views' );
 app.use( express.static( __dirname + '/public' ) );
 app.use( app.router );
 
+//another comment
+
 //direct all traffic from port number to our req and res interfaces
 app.get( '/', function ( req, res ) { res.render( 'index' ); });
 app.listen( port );
