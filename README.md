@@ -1,25 +1,11 @@
-Poet
+Concept Node Blog
 ======
 
-[![Build Status](https://travis-ci.org/jsantell/poet.png)](https://travis-ci.org/jsantell/poet)
+##Intro
 
+Blog functionality provided by Poet, a node module for easy post, tag, and category management.
 
-Poet has your code-blogging back. Renders markdown, jade, or any templated files as posts, tag it up with metadata that's passed into any view engine you want, instant pagination, tag and category views, and home in time for dinner.
-
-View the source for [jsantell.com](https://github.com/jsantell/jsantell.com) to see an example of Poet in use. Much `<3` to [Brittany Fedor](http://bfedor.com/) for the sweet art!
-
-![The Node Poet](https://raw.github.com/jsantell/poet/gh-pages/img/poet.png)
-
-## Documentation
-
-Full documentation for *Poet* can be found at [http://jsantell.github.com/poet](http://jsantell.github.com/poet)
-
-## Poet In Action
-
-These sites are using Poet for their blogging, check them out! Ping me, or send a PR if you too are using Poet in the wild.
-
-* [Yellow Pages Engineering](http://engineering.yp.com/)
-* [BryanPaluch.com](http://bryanpaluch.com)
+Built on top are many tools and functionality a developer needs for a profile. hehe
 
 ## Installing
 
