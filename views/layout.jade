@@ -4,30 +4,24 @@ html
     title= 'Poet Demo'
     meta(charset='utf-8')
     link(rel='stylesheet', href='/css/bootstrap.css')
-    meta(name='viewport', content='width=device-width, initial-scale=1.0')
-    link(href='../bootstrap/css/bootstrap-responsive.css', rel='stylesheet')
-
   body
     .navbar.navbar-fixed-top
       .navbar-inner
         .container
           a.brand(href='/') Poet Demos
     .wrap
-      .container-fluid
-        .row-fluid
-            .span2
-              .well.sidebar-nav
-                include leftNav
-            .span8
-              block content
-            .span2
-              .well.sidebar-nav
-                ul.nav.nav-list
-                  li.nav-header categories
-                  - each cat in categoryList
-                    li
-                      a(href=categoryUrl(cat)) #{cat}
-                  li.nav-header tags
-                  - each tag in tagList
-                    li
-                      a(href=tagUrl(tag)) #{tag}
+      .container
+        .row
+          .span8
+            block content
+          .span4
+            .well.sidebar-nav
+              ul.nav.nav-list
+                li.nav-header categories
+                - each cat in categoryList
+                  li
+                    a(href=categoryUrl(cat)) #{cat}
+                li.nav-header tags
+                - each tag in tagList
+                  li
+                    a(href=tagUrl(tag)) #{tag}
